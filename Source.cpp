@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int chislo = 20;
-	char s1[] = "fdsf";
+	string s1 = "fdsf";
 	double d1 = 25;
 	float f1 = 25.6;
 	char ch1 = 3;
