@@ -5,7 +5,14 @@ using namespace std;
 int main()
 {
 	int i, j, k, l;
-	cin >> i >> j >> k >> l;
+/*	cout << "i=";
+	cin >> i;
+	cout << "j=";
+	cin >> j;
+	cout << "k=";
+	cin >> k;
+	cout << "l=";
+	cin >> l;*/
 	if (i > j and i > k and i > l)
 	{
 		cout << "max i " << i << endl;
@@ -22,4 +29,5 @@ int main()
 	{
 		cout << "max l " << l << endl;
 	}
+	cout << max({ i, j, k, l });
 }
