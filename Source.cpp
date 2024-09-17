@@ -4,25 +4,80 @@ using namespace std;
 
 int main()
 {
-	int chislo = 20;
-	string s1 = "fdsf";
-	double d1 = 25;
-	float f1 = 25.6;
-	char ch1 = 3;
-	int a1, b1, b3;
-	a1 = 3;
-	b1 = 4;
-	b3 = 5;
-	int a2 = 25;
-	char a3 = 'h';
-	string str = "Hello";
-	char b2 = 'B';
-	int a5, a4, c3 = 18;
-	char s2 = 'hi';
-	char c[] = "lets go";
-	cout << "Hello" << endl;
-	cout << s1 << endl;
-	cout << a2 << endl;
-	cout << a1 << endl;
-	return 0;
+	int int1 = 15, int2 = 20, int3 = 20, int4 = 30;
+
+	// Задание 1
+	
+	while (int2 == int3)
+	{
+		int2++;
+	}
+	cout << "operator == true" << "     int1 = " << int1 << "    int2 = " << int2 << "    int3 = " << int3 << "     int4 = " << int4 << endl;
+
+	// Задание 2
+	
+	while (int2 != int3)
+	{
+		int2--;
+	}
+	cout << "operator != true" << "     int1 = " << int1 << "    int2 = " << int2 << "    int3 = " << int3 << "     int4 = " << int4 << endl;
+
+	
+
+	// Задание 3
+	
+	while (int4 > int3)
+	{
+		int4--;
+	}
+	cout << "operator > true" << "     int1 = " << int1 << "    int2 = " << int2 << "    int3 = " << int3 << "     int4 = " << int4 << endl;
+
+	
+	while (int1 < int3)
+	{
+		int1++;
+	}
+	int2 = 10;
+	cout << "operator < true" << "     int1 = " << int1 << "    int2 = " << int2 << "    int3 = " << int3 << "     int4 = " << int4 << endl;
+
+	// Задание 4
+	
+	while (int3 >= int2)
+	{
+		int2++;
+	}
+	cout << "operator >= true" << "     int1 = " << int1 << "    int2 = " << int2 << "    int3 = " << int3 << "     int4 = " << int4 << endl;
+
+	while (int3 <= int2)
+	{
+		int3++;
+	}
+	cout << "operator <= true" << "     int1 = " << int1 << "    int2 = " << int2 << "    int3 = " << int3 << "     int4 = " << int4 << endl;
+
+	
+	// Задание 5
+	while (int1 == int4 && int3 > int2)
+	{
+		int2++;
+	}
+	cout << "operator && true" << "     int1 = " << int1 << "    int2 = " << int2 << "    int3 = " << int3 << "     int4 = " << int4 << endl;
+
+	// Задание 6
+	while (int2 >= int3 || int1 == int4)
+	{
+		int3++;
+		int1--;
+	}
+	cout << "operator || true" << "     int1 = " << int1 << "    int2 = " << int2 << "    int3 = " << int3 << "     int4 = " << int4 << endl;
+
+
+	// Задание 7
+
+	while (!(int2 == int3))
+	{
+		int2++;
+	}
+	cout << "operator ! true" << "     int1 = " << int1 << "    int2 = " << int2 << "    int3 = " << int3 << "     int4 = " << int4 << endl;
+
+
 }
