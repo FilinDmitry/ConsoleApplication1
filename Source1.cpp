@@ -5,14 +5,14 @@ using namespace std;
 int main()
 {
 	int i, j, k, l;
-/*	cout << "i=";
+	cout << "i=";
 	cin >> i;
 	cout << "j=";
 	cin >> j;
 	cout << "k=";
 	cin >> k;
 	cout << "l=";
-	cin >> l;*/
+	cin >> l;
 	if (i > j and i > k and i > l)
 	{
 		cout << "max i " << i << endl;
