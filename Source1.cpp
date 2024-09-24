@@ -1,33 +1,18 @@
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <windjws.h>
 using namespace std;
 
 int main()
 {
-	int i, j, k, l;
-	cout << "i=";
-	cin >> i;
-	cout << "j=";
-	cin >> j;
-	cout << "k=";
-	cin >> k;
-	cout << "l=";
-	cin >> l;
-	if (i > j and i > k and i > l)
-	{
-		cout << "max i " << i << endl;
-	}
-	if (i < j and j > k and j > l)
-	{
-		cout << "max j " << j << endl;
-	}
-	if (k > j and k > i and k > l)
-	{
-		cout << "max k " << k << endl;
-	}
-	if (l > j and l > i and l > k)
-	{
-		cout << "max l " << l << endl;
-	}
-	cout << max({ i, j, k, l });
+    int i, a, b;
+    cout << "Введите действие 1 - деление, 2 - умножение, 3 - вычитание, 4 - деление, 5 - целочисленное деление";
+    cin >> i;
+    cout << "Введите a"
+    cin >> a;
+    cout << "Введите b"
+    cin >> b;
+    if (i==1)
+    {
+        
+    }
 }
